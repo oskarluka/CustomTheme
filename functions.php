@@ -16,7 +16,7 @@ register_nav_menus(array(
 	'primary' => __('Primary Menu'),
 	'footer' => __('Footer Menu'),
 ));
-
+//Children links
 function get_top_ancestor_id() {
 
 	global $post;
@@ -29,7 +29,7 @@ function get_top_ancestor_id() {
 	return $post->ID;
 
 }
-
+//for if statement to ckeck link avability
 function has_children() {
 
 	global $post;

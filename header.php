@@ -9,7 +9,7 @@
 
 <body <?php body_class(); ?>>
 
-	<dir class="container">
+	<div class="container">
 
 		<!-- site header-->
 		<header class="site-header">
